@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickRooms - Game</title>
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="./level1.css">
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body oncontextmenu="return false;">
+    <div class="menu">
+        <button class="noselect" id="step_button">Step(+1)</button>
+        <h1 class="noselect" >Health |<samp id="health_score">100</samp>|</h1>
+        <div id="boss_id" class="boss">
+            <img id="boss_img" src="./icon-boss.png" alt="">
+            <h1>Rooms - <span id="count_boss">0</span></h1>
+        </div>
+        
+    </div>
+    <div class="scoreMain"> 
+        <p class="noselect" id="count">0</p>
+        <p class="noselect" id="infoCount">0</p>
+    </div>
+
+    <div class="mini-game" id="id_mini-game">
+        <input class="noselect" type="button" id="exit_mini_game" value="Exit">
+        <input class="noselect" type="button" id="med" value="[+]">
+        <input class="noselect" type="button" id="anti-med" value="[-]">
+    </div>
+
+    <div class="monster-game" id="id_monster-game">
+        <img class="noselect" id="monster" ondrag="return false" ondragdrop="return false" ondragstart="return false" src="../../monster/icon-monster-animation.gif" alt="">
+    </div>
+
+    <div class="inventory_class" id="id_inventory">
+        <div class="slot1" id="slot1_id"><img src="../../Inventory_items/medicaments.png" alt=""><span id="slot1_size">0</span></div>
+        <div class="slot2" id="slot2_id"><img src="../../Inventory_items/+10 rooms.png" alt=""><span id="slot2_size">0</span></div>
+        <div class="slot3" id="slot3_id"><img src="../../Inventory_items/key.png" alt=""><span id="slot3_size">0</span></div>
+    </div>
+    <p id="subtitle"></p>
+    <script src="./level1.js"></script>
+</body>
+</html>

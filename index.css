@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://kupit-kvartiru-bez-posrednikov.ru/wp-content/uploads/2021/04/gde-stroit-zagorodnyj-dom.jpg");
+    background-size: cover;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.551);
+    cursor: crosshair;
+    
+}
+
+#icon{
+    width: 100px;
+    height: 100px;
+    image-rendering: pixelated;
+}
+
+.lore_class img{
+    width: 15%;
+    height: 100px;
+    image-rendering: pixelated;
+}
+
+#lore{
+    background-color: rgba(10, 10, 10, 0.728);
+    font-size: 15px;
+    color: rgb(146, 146, 146);
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+}
